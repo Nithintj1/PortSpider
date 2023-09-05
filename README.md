@@ -25,3 +25,16 @@ PortSpider is a basic port scanning tool that allows you to check the status (op
 ```bash
 cd PortSpider
 ```
+
+3. Run the script:
+```bash
+cd python PortSpider.py
+```
+
+4. Follow the on-screen prompts to enter the target IP address and ports to scan.
+
+## Example
+
+```bash
+Enter the target IP address: 192.168.1.1
+Enter the ports to scan (comma-separated): 80,443,22
