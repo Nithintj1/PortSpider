@@ -16,8 +16,12 @@ PortSpider is a basic port scanning tool that allows you to check the status (op
 
 1. Clone the repository:
 
-git clone https://github.com/Nithintj1/PortSpider
-
+```bash
+  git clone https://github.com/Nithintj1/PortSpider
+```
 
 2. Navigate to the project directory:
 
+```bash
+cd PortSpider
+```
