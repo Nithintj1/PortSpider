@@ -1,5 +1,21 @@
 import socket
-print("")
+
+# Function to print the ASCII art banner
+def print_banner():
+    banner = """
+    
+ (                   (                               
+ )\ )              ) )\ )            (               
+(()/(      (    ( /((()/(       (    )\ )   (   (    
+ /(_)) (   )(   )\())/(_))`  )  )\  (()/(  ))\  )(   
+(_))   )\ (()\ (_))/(_))  /(/( ((_)  ((_))/((_)(()\  
+| _ \ ((_) ((_)| |_ / __|((_)_\ (_)  _| |(_))   ((_) 
+|  _// _ \| '_||  _|\__ \| '_ \)| |/ _` |/ -_) | '_| 
+|_|  \___/|_|   \__||___/| .__/ |_|\__,_|\___| |_|   
+                         |_|                         
+                            (Designed By Nithintj1)
+    """
+    print(banner)
 
 def scan_port(target_ip, port):
     try:
@@ -23,6 +39,9 @@ def scan_port(target_ip, port):
         print(f"Could not connect to {target_ip}:{port}")
 
 def main():
+    # Print the program name as ASCII art banner
+    print_banner()
+
     target_ip = input("Enter the target IP address: ")
     target_ports = input("Enter the ports to scan (comma-separated): ").split(',')
 
